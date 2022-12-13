@@ -1,0 +1,78 @@
+.services {
+  padding: 3vw 3vw 0 5vw;
+  display: flex;
+  height: 36vw;
+  margin: 22vw 0 13vw 0;
+}
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+}
+
+.awesome > :nth-child(1) {
+  color: #242D49;
+  font-size: 3.4vw;
+  font-weight: 800;
+}
+.awesome > :nth-child(2) {
+  color:#FCA61F;
+  font-size: 3.2vw;
+  font-weight: 900;
+}
+.awesome > :nth-child(3) {
+  color: #788097;
+  font-size: 14px;
+  margin-top: 1vw;
+  margin-top: 1vw;
+}
+.s-button {
+  margin-top: 3vw;
+  background: #FBB63E;
+  box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  border: none;
+  padding:  10px 19px 25px 19px ;
+  font-size: 15px;
+  color: #ffffff;
+}
+.s-button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 1px solid #FBB63E;
+  background-color: transparent;
+  color: #FBB63E;
+}
+
+
+.cards {
+  position: relative;
+}
+.cards > .card1,
+.cards > .card2,
+.cards > .card3{
+  position: absolute;
+}
+.cards .card1{
+  top: -1vw;
+  left: 22vw;
+}
+.cards .card2{
+  top: 17vw;
+  left: -2vw;
+}
+.cards .card3{
+  top: 27vw;
+  left: 23vw;
+}
+.s-blur2 {
+  left: 14vw;
+  top: 8vw;
+}
+
+.s-blur1 {
+  top: 13vw;
+  left: -18vw;
+}
+

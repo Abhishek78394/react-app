@@ -1,0 +1,22 @@
+.toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid #FCA61F;
+    border-radius: 15px;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.moon,.sun,
+.t-button{
+    width: 1.3vw;
+    height: 1.3vw;
+    color: #FCA61F;
+}
+
+.t-button{
+    border-radius: 50%;
+    background: #FCA61F;
+    position: absolute;
+}

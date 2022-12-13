@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin:5vw -5vw -5vw -3.5vw ;
+  position: relative;
+  margin-top: -7vw;
+}
+.f-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 8vw;
+  gap: 3vw;
+  color: white;
+}
+.f-content span{
+  font-size: 1.6vw;
+}
+.f-icons {
+  display: flex;
+  gap: 2vw;
+}
+
+
